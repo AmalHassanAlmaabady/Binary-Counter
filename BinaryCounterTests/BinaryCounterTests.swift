@@ -1,14 +1,9 @@
-//
-//  Assignment20Tests.swift
-//  Assignment20Tests
-//
-//  Created by Eman on 22/04/1444 AH.
-//
+
 
 import XCTest
-@testable import Assignment20
+@testable import BinaryCounter
 
-final class Assignment20Tests: XCTestCase {
+final class BinaryCounterTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

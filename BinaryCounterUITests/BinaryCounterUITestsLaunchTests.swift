@@ -1,13 +1,8 @@
-//
-//  Assignment20UITestsLaunchTests.swift
-//  Assignment20UITests
-//
-//  Created by Eman on 22/04/1444 AH.
-//
+
 
 import XCTest
 
-final class Assignment20UITestsLaunchTests: XCTestCase {
+final class BinaryCounterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

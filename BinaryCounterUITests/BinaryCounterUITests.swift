@@ -1,13 +1,8 @@
-//
-//  Assignment20UITests.swift
-//  Assignment20UITests
-//
-//  Created by Eman on 22/04/1444 AH.
-//
+
 
 import XCTest
 
-final class Assignment20UITests: XCTestCase {
+final class BinaryCounterUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

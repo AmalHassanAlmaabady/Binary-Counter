@@ -13,9 +13,10 @@
 		03C553732924F63C00023828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C553712924F63C00023828 /* Main.storyboard */; };
 		03C553752924F64000023828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C553742924F64000023828 /* Assets.xcassets */; };
 		03C553782924F64000023828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C553762924F64000023828 /* LaunchScreen.storyboard */; };
-		03C553832924F64000023828 /* Assignment20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C553822924F64000023828 /* Assignment20Tests.swift */; };
-		03C5538D2924F64000023828 /* Assignment20UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5538C2924F64000023828 /* Assignment20UITests.swift */; };
-		03C5538F2924F64000023828 /* Assignment20UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5538E2924F64000023828 /* Assignment20UITestsLaunchTests.swift */; };
+		03C553832924F64000023828 /* BinaryCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C553822924F64000023828 /* BinaryCounterTests.swift */; };
+		03C5538D2924F64000023828 /* BinaryCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5538C2924F64000023828 /* BinaryCounterUITests.swift */; };
+		03C5538F2924F64000023828 /* BinaryCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5538E2924F64000023828 /* BinaryCounterUITestsLaunchTests.swift */; };
+		03C5539E2924F7DC00023828 /* displayNumbersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5539D2924F7DC00023828 /* displayNumbersTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C553682924F63C00023828 /* Assignment20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C553682924F63C00023828 /* BinaryCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C5536B2924F63C00023828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C5536D2924F63C00023828 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03C5536F2924F63C00023828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +45,12 @@
 		03C553742924F64000023828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C553772924F64000023828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C553792924F64000023828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03C5537E2924F64000023828 /* Assignment20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03C553822924F64000023828 /* Assignment20Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment20Tests.swift; sourceTree = "<group>"; };
-		03C553882924F64000023828 /* Assignment20UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment20UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03C5538C2924F64000023828 /* Assignment20UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment20UITests.swift; sourceTree = "<group>"; };
-		03C5538E2924F64000023828 /* Assignment20UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment20UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03C5537E2924F64000023828 /* BinaryCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C553822924F64000023828 /* BinaryCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterTests.swift; sourceTree = "<group>"; };
+		03C553882924F64000023828 /* BinaryCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C5538C2924F64000023828 /* BinaryCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterUITests.swift; sourceTree = "<group>"; };
+		03C5538E2924F64000023828 /* BinaryCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03C5539D2924F7DC00023828 /* displayNumbersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayNumbersTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,9 @@
 		03C5535F2924F63C00023828 = {
 			isa = PBXGroup;
 			children = (
-				03C5536A2924F63C00023828 /* Assignment20 */,
-				03C553812924F64000023828 /* Assignment20Tests */,
-				03C5538B2924F64000023828 /* Assignment20UITests */,
+				03C5536A2924F63C00023828 /* BinaryCounter */,
+				03C553812924F64000023828 /* BinaryCounterTests */,
+				03C5538B2924F64000023828 /* BinaryCounterUITests */,
 				03C553692924F63C00023828 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +91,14 @@
 		03C553692924F63C00023828 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03C553682924F63C00023828 /* Assignment20.app */,
-				03C5537E2924F64000023828 /* Assignment20Tests.xctest */,
-				03C553882924F64000023828 /* Assignment20UITests.xctest */,
+				03C553682924F63C00023828 /* BinaryCounter.app */,
+				03C5537E2924F64000023828 /* BinaryCounterTests.xctest */,
+				03C553882924F64000023828 /* BinaryCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03C5536A2924F63C00023828 /* Assignment20 */ = {
+		03C5536A2924F63C00023828 /* BinaryCounter */ = {
 			isa = PBXGroup;
 			children = (
 				03C5536B2924F63C00023828 /* AppDelegate.swift */,
@@ -106,33 +108,34 @@
 				03C553742924F64000023828 /* Assets.xcassets */,
 				03C553762924F64000023828 /* LaunchScreen.storyboard */,
 				03C553792924F64000023828 /* Info.plist */,
+				03C5539D2924F7DC00023828 /* displayNumbersTableViewCell.swift */,
 			);
-			path = Assignment20;
+			path = BinaryCounter;
 			sourceTree = "<group>";
 		};
-		03C553812924F64000023828 /* Assignment20Tests */ = {
+		03C553812924F64000023828 /* BinaryCounterTests */ = {
 			isa = PBXGroup;
 			children = (
-				03C553822924F64000023828 /* Assignment20Tests.swift */,
+				03C553822924F64000023828 /* BinaryCounterTests.swift */,
 			);
-			path = Assignment20Tests;
+			path = BinaryCounterTests;
 			sourceTree = "<group>";
 		};
-		03C5538B2924F64000023828 /* Assignment20UITests */ = {
+		03C5538B2924F64000023828 /* BinaryCounterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				03C5538C2924F64000023828 /* Assignment20UITests.swift */,
-				03C5538E2924F64000023828 /* Assignment20UITestsLaunchTests.swift */,
+				03C5538C2924F64000023828 /* BinaryCounterUITests.swift */,
+				03C5538E2924F64000023828 /* BinaryCounterUITestsLaunchTests.swift */,
 			);
-			path = Assignment20UITests;
+			path = BinaryCounterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03C553672924F63C00023828 /* Assignment20 */ = {
+		03C553672924F63C00023828 /* BinaryCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03C553922924F64000023828 /* Build configuration list for PBXNativeTarget "Assignment20" */;
+			buildConfigurationList = 03C553922924F64000023828 /* Build configuration list for PBXNativeTarget "BinaryCounter" */;
 			buildPhases = (
 				03C553642924F63C00023828 /* Sources */,
 				03C553652924F63C00023828 /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = Assignment20;
+			name = BinaryCounter;
 			productName = Assignment20;
-			productReference = 03C553682924F63C00023828 /* Assignment20.app */;
+			productReference = 03C553682924F63C00023828 /* BinaryCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03C5537D2924F64000023828 /* Assignment20Tests */ = {
+		03C5537D2924F64000023828 /* BinaryCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03C553952924F64000023828 /* Build configuration list for PBXNativeTarget "Assignment20Tests" */;
+			buildConfigurationList = 03C553952924F64000023828 /* Build configuration list for PBXNativeTarget "BinaryCounterTests" */;
 			buildPhases = (
 				03C5537A2924F64000023828 /* Sources */,
 				03C5537B2924F64000023828 /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				03C553802924F64000023828 /* PBXTargetDependency */,
 			);
-			name = Assignment20Tests;
+			name = BinaryCounterTests;
 			productName = Assignment20Tests;
-			productReference = 03C5537E2924F64000023828 /* Assignment20Tests.xctest */;
+			productReference = 03C5537E2924F64000023828 /* BinaryCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		03C553872924F64000023828 /* Assignment20UITests */ = {
+		03C553872924F64000023828 /* BinaryCounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03C553982924F64000023828 /* Build configuration list for PBXNativeTarget "Assignment20UITests" */;
+			buildConfigurationList = 03C553982924F64000023828 /* Build configuration list for PBXNativeTarget "BinaryCounterUITests" */;
 			buildPhases = (
 				03C553842924F64000023828 /* Sources */,
 				03C553852924F64000023828 /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				03C5538A2924F64000023828 /* PBXTargetDependency */,
 			);
-			name = Assignment20UITests;
+			name = BinaryCounterUITests;
 			productName = Assignment20UITests;
-			productReference = 03C553882924F64000023828 /* Assignment20UITests.xctest */;
+			productReference = 03C553882924F64000023828 /* BinaryCounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03C553632924F63C00023828 /* Build configuration list for PBXProject "Assignment20" */;
+			buildConfigurationList = 03C553632924F63C00023828 /* Build configuration list for PBXProject "BinaryCounter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03C553672924F63C00023828 /* Assignment20 */,
-				03C5537D2924F64000023828 /* Assignment20Tests */,
-				03C553872924F64000023828 /* Assignment20UITests */,
+				03C553672924F63C00023828 /* BinaryCounter */,
+				03C5537D2924F64000023828 /* BinaryCounterTests */,
+				03C553872924F64000023828 /* BinaryCounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +264,7 @@
 				03C553702924F63C00023828 /* ViewController.swift in Sources */,
 				03C5536C2924F63C00023828 /* AppDelegate.swift in Sources */,
 				03C5536E2924F63C00023828 /* SceneDelegate.swift in Sources */,
+				03C5539E2924F7DC00023828 /* displayNumbersTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C553832924F64000023828 /* Assignment20Tests.swift in Sources */,
+				03C553832924F64000023828 /* BinaryCounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C5538D2924F64000023828 /* Assignment20UITests.swift in Sources */,
-				03C5538F2924F64000023828 /* Assignment20UITestsLaunchTests.swift in Sources */,
+				03C5538D2924F64000023828 /* BinaryCounterUITests.swift in Sources */,
+				03C5538F2924F64000023828 /* BinaryCounterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		03C553802924F64000023828 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03C553672924F63C00023828 /* Assignment20 */;
+			target = 03C553672924F63C00023828 /* BinaryCounter */;
 			targetProxy = 03C5537F2924F64000023828 /* PBXContainerItemProxy */;
 		};
 		03C5538A2924F64000023828 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03C553672924F63C00023828 /* Assignment20 */;
+			target = 03C553672924F63C00023828 /* BinaryCounter */;
 			targetProxy = 03C553892924F64000023828 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment20/Info.plist;
+				INFOPLIST_FILE = BinaryCounter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = try.Assignment20;
+				PRODUCT_BUNDLE_IDENTIFIER = "try.Binary-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment20/Info.plist;
+				INFOPLIST_FILE = BinaryCounter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = try.Assignment20;
+				PRODUCT_BUNDLE_IDENTIFIER = "try.Binary-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -494,12 +498,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = try.Assignment20Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = try.BinaryCounterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment20.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment20";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinaryCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BinaryCounter";
 			};
 			name = Debug;
 		};
@@ -513,12 +517,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = try.Assignment20Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = try.BinaryCounterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment20.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment20";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinaryCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BinaryCounter";
 			};
 			name = Release;
 		};
@@ -559,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03C553632924F63C00023828 /* Build configuration list for PBXProject "Assignment20" */ = {
+		03C553632924F63C00023828 /* Build configuration list for PBXProject "BinaryCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C553902924F64000023828 /* Debug */,
@@ -568,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03C553922924F64000023828 /* Build configuration list for PBXNativeTarget "Assignment20" */ = {
+		03C553922924F64000023828 /* Build configuration list for PBXNativeTarget "BinaryCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C553932924F64000023828 /* Debug */,
@@ -577,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03C553952924F64000023828 /* Build configuration list for PBXNativeTarget "Assignment20Tests" */ = {
+		03C553952924F64000023828 /* Build configuration list for PBXNativeTarget "BinaryCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C553962924F64000023828 /* Debug */,
@@ -586,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03C553982924F64000023828 /* Build configuration list for PBXNativeTarget "Assignment20UITests" */ = {
+		03C553982924F64000023828 /* Build configuration list for PBXNativeTarget "BinaryCounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C553992924F64000023828 /* Debug */,
